@@ -37,4 +37,4 @@ To build the project from command line, follow these steps:
 To run the binary on any other computer, you must install the appropriate runtime library on that computer.
 For example:
 
--   For the `ifx` compiler, install the appropriate version of the runtime library from [this webpage from Intel](https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html).
+-   For the `ifx` compiler, install the runtime which has the same ([or newer, ideally newest](community.intel.com/t5/Intel-Fortran-Compiler/Fortran-DLL-run-time-dependencies/m-p/1539623#M168959)), version as the compiler. All runtime versions are available on [this webpage from Intel](https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html).
