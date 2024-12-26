@@ -109,7 +109,7 @@ To install them, follow these steps:
 1.  Install a Python distribution or a Python distribution manager:
     ```
     # Debian-like Linux systems
-    sudo apt install python3 python-is-python3
+    sudo apt install python3 python-is-python3 python3-pip
     # Windows
     winget install CondaForge.Miniforge3
     ```
