@@ -10,6 +10,8 @@ with terminals, compilers, build systems, code editors and Linux environments.
 
 ## Windows 10 and later, via WSL
 
+This method uses the `gfortran` Fortran compiler and the `gcc` C compiler, both maintained by the GNU Project.
+
 ### Installing the tools
 
 1.  Install the Windows Subsystem for Linux (`wsl`). This step is not complicated,
@@ -47,6 +49,8 @@ Open Visual Studio Code in WSL mode, using one of the following methods:
 -   Open a `wsl` terminal and simply run the `code` command.
 
 ## Windows 10 and later, native
+
+This method uses the `ifx` Fortran compiler, maintained by Intel; and the MSVC C compiler, maintained by Microsoft.
 
 ### Installing the tools
 
