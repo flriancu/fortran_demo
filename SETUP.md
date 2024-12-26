@@ -1,4 +1,4 @@
-# Setting up Fortran on modern systems
+# Setting up Fortran + Visual Studio Code on modern systems
 
 The following document is a brief guide on how to set up Fortran on various systems.
 
@@ -17,7 +17,7 @@ with terminals, compilers, build systems, code editors and Linux environments.
     and is therefore not covered here. Follow
     [this official guide](https://learn.microsoft.com/en-us/windows/wsl/install)
     from Microsoft.
-1.  Open a `wsl` terminal and install a Fortran compiler and other necessary tools:
+1.  Open a `wsl` terminal and install a Fortran compiler, a C compiler and other necessary tools:
     ```
     sudo apt install build-essential gfortran ninja-build gdb cmake
     ```
@@ -50,7 +50,7 @@ Open Visual Studio Code in WSL mode, using one of the following methods:
 
 ### Installing the tools
 
-1.  Open a `cmd` terminal and install a Fortran compiler and other necessary tools:
+1.  Open a `cmd` terminal and install a Fortran compiler, a C compiler and other necessary tools:
     ```
     winget install Kitware.CMake
     winget install Ninja-build.Ninja
@@ -91,3 +91,29 @@ TODO
 ## macOS
 
 TODO
+
+## Fortran tools in Visual Studio Code
+
+Optionally, you can enhance your development experience by installing various helper tools for use within Visual Studio Code.
+The tools consist of:
+
+-   `findent` - a formatter
+-   `fortls` - a language server.
+
+To install them, follow these steps:
+
+1.  Install a Python distribution or a Python distribution manager:
+    ```
+    # Debian-like Linux systems
+    sudo apt install python3 python-is-python3
+    # Windows
+    winget install CondaForge.Miniforge3
+    ```
+1.  On Windows, whenever you initialize the environment, perform the following additional `call`:
+    ```bat
+    call %userprofile%\miniforge3\Scripts\activate.bat %userprofile%\miniforge3
+    ```
+1.  The very first time, before you start the code editor, install the tools:
+    ```
+    python -m pip install findent fortls
+    ```
