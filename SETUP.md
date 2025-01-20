@@ -162,7 +162,7 @@ To install them, follow these steps:
         winget install Python.Python.3.10
         python -m venv %userprofile%\.venv\fortran
         ```
-1.  Whenever you initialize the environment, before starting the code editor, perform the following additional commands:
+1.  Whenever you initialize the environment, before you start the code editor, perform the following additional commands:
     -   On Windows:
         ```bat
         %userprofile%\.venv\fortran\Scripts\activate
