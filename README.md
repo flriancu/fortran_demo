@@ -1,4 +1,4 @@
-# Minimal Fortran + Visual Studio Code project
+# Minimal Fortran + CMake project
 
 This is a minimal template project for using Fortran on modern systems, including:
 
@@ -7,14 +7,14 @@ This is a minimal template project for using Fortran on modern systems, includin
 -   Linux
 -   macOS
 
-For installation of tools and Visual Studio Code, see [SETUP.md](SETUP.md).
+For installation of tools, see [SETUP.md](SETUP.md).
 
 ## Building the project
 
-There are several methods to build the project, both from command line as well as from within Visual Studio Code.
+There are several methods to build the project, both from command line as well as from within an IDE or code editor.
 To build the project from command line, follow these steps:
 
-1.  Initialize the environment, if necessary
+1.  Initialize the environment, if necessary; see the setup file for details.
 1.  Go into the root project of the directory
 1.  Configure the project:
     ```

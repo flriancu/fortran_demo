@@ -1,4 +1,4 @@
-# Setting up Fortran + Visual Studio Code on modern systems
+# Setting up Fortran + CMake on modern systems
 
 The following document is a brief guide on how to set up Fortran on various systems.
 
@@ -25,6 +25,8 @@ This method uses the `gfortran` Fortran compiler and the `gcc` C compiler, both 
     ```
 ### Installing the code editor
 
+#### Visual Studio Code
+
 1.  Install Visual Studio Code, for example by running these commands in a `cmd` terminal:
     ```
     winget install vscode
@@ -41,6 +43,8 @@ This method uses the `gfortran` Fortran compiler and the `gcc` C compiler, both 
 1.  Open a `wsl` terminal and run the same commands from the previous step.
 
 ### Using the code editor
+
+#### Visual Studio Code
 
 Open Visual Studio Code in WSL mode, using one of the following methods:
 
@@ -64,6 +68,8 @@ This method uses the `ifx` Fortran compiler, maintained by Intel; and the MSVC C
 
 ### Installing the code editor
 
+#### Visual Studio Code
+
 1.  Install Visual Studio Code, for example by running these commands in a `cmd` terminal:
     ```
     winget install vscode
@@ -75,6 +81,8 @@ This method uses the `ifx` Fortran compiler, maintained by Intel; and the MSVC C
     ```
 
 ### Using the code editor
+
+#### Visual Studio Code
 
 Open a `cmd` terminal and run the following commands to open Visual Studio Code in the required environment:
 
