@@ -151,7 +151,7 @@ The tools consist of:
 
 To install them, follow these steps:
 
-1.  Install a Python distribution or a Python distribution manager:
+1.  Install a Python distribution or a Python distribution manager, for example:
     -   Debian-like Linux systems:
         ```
         sudo apt install python3 python-is-python3 python3-pip python3-venv
